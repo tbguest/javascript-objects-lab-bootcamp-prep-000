@@ -7,6 +7,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 console.log(updateObjectWithKeyAndValue(recipes, 'pie', 'apple'))
+console.log(recipes)
 
 
 // function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
