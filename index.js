@@ -6,13 +6,16 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return newObj
 }
 
-console.log(updateObjectWithKeyAndValue(recipes, 'pie', 'apple'))
-console.log(recipes)
+// console.log(updateObjectWithKeyAndValue(recipes, 'pie', 'apple'))
+// console.log(recipes)
 
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object[key] = value
 }
+
+console.log(destructivelyUpdateObjectWithKeyAndValue(recipes, 'pie', 'apple'))
+console.log(recipes)
 
 // function deleteFromObjectByKey(object, key) {
   
