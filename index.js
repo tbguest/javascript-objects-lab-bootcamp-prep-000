@@ -10,9 +10,9 @@ console.log(updateObjectWithKeyAndValue(recipes, 'pie', 'apple'))
 console.log(recipes)
 
 
-// function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   
-// }
+}
 
 // function deleteFromObjectByKey(object, key) {
   
